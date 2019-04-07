@@ -5,3 +5,7 @@ output "instance_public_dns" {
 output "lb_dns_name" {
   value = "${aws_lb.waf_test.dns_name}"
 }
+
+output "aws_lb-waf_test-arn" {
+  value = "${aws_lb.waf_test.arn}"
+}
