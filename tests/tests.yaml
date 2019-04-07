@@ -1,0 +1,6 @@
+- name: Test
+  req:
+    body:
+      foo: bar
+  res:
+    status: 200
